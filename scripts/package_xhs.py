@@ -15,7 +15,7 @@ for f in files:
 for ref in re.findall(r'url\([\"\']?([^\)\"\']+)',(root/'assets/style.css').read_text()):
  if ref.startswith(('data:','%23','#')):continue
  assert (root/'assets'/ref).exists(),ref
-output=root/'人生之书-交互原型-小红书小工具.zip'
+output=root/'life-deck-xhs-package.zip'
 with zipfile.ZipFile(output,'w',zipfile.ZIP_DEFLATED) as z:
  for f in files:z.write(root/f,f)
 with zipfile.ZipFile(output) as z:
