@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#eeeae1">
+<title>人生之书 · 建议卡牌</title>
+<link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+<div class="page-grain" aria-hidden="true"></div>
+<header class="topbar">
+ <button class="brand" id="home-button" aria-label="返回游戏入口"><span class="brand-mark" aria-hidden="true">✳</span><span>人生之书<small>THE BOOK OF YOUR LIFE</small></span></button>
+ <button class="deck-button" id="deck-button"><span aria-hidden="true">▱</span> 我的牌组 <b id="deck-count">0</b></button>
+</header>
+<main id="main" tabindex="-1"></main>
+<footer class="site-footer"><span>数据只存在这台设备 · 全程离线</span><button id="about-button">玩法与资料</button></footer>
+<div class="notice" id="notice" role="status" aria-live="polite" hidden></div>
+<div class="storage-warning" id="storage-warning" role="status" hidden></div>
+<div class="modal-mask" id="modal-mask" hidden>
+ <section class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" tabindex="-1">
+  <header class="modal-header"><span class="eyebrow" id="modal-kicker">行动卡片</span><button id="modal-close" class="icon-button" aria-label="关闭">×</button></header>
+  <div id="modal-content"></div>
+ </section>
+</div>
+<script src="./assets/content.js"></script>
+<script src="./assets/sources.js"></script>
+<script src="./assets/catalog.js"></script>
+<script src="./assets/reading.js"></script>
+<script src="./assets/core.js"></script>
+<script src="./assets/interests.js"></script>
+<script src="./assets/routes.js"></script>
+<script src="./assets/applicability.js"></script>
+<script src="./assets/exploration.js"></script>
+<script src="./assets/platform.js"></script>
+<script src="./assets/app.js"></script>
+</body>
+</html>

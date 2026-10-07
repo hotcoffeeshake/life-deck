@@ -1,0 +1,20 @@
+{
+  "files": [
+    "index.html",
+    "assets/app.js",
+    "assets/applicability.js",
+    "assets/catalog.js",
+    "assets/content.js",
+    "assets/core.js",
+    "assets/exploration.js",
+    "assets/interests.js",
+    "assets/platform.js",
+    "assets/reading.js",
+    "assets/routes.js",
+    "assets/sources.js",
+    "assets/style.css"
+  ],
+  "bytes": 624154,
+  "sha256": "9aba421f99b39512f2e2c1204a8056105c5297085ab2ecb57dadab612a027bb6",
+  "source_commit": "8276caec9508c11c5c80a65440b17895023e2fb9"
+}

@@ -1,0 +1,104 @@
+{
+  "version": 6,
+  "contexts": [],
+  "pendingCard": null,
+  "trail": [],
+  "profile": "student",
+  "need": "energy",
+  "deck": [
+    {
+      "id": "source-5-1",
+      "title": "关掉所有自动续费，改为到期手动续",
+      "question": "有些会员已经不用了，却还在每月扣钱吗？",
+      "chapterId": 5,
+      "chapterTitle": "不要浪费钱",
+      "heading": "1. 关掉所有自动续费，改为到期手动续",
+      "url": "https://github.com/eternity4719/HowToLiveBetter/blob/main/book/05-不要浪费钱.md",
+      "tags": [
+        "bills",
+        "student",
+        "earlywork",
+        "working",
+        "family",
+        "retired",
+        "money"
+      ],
+      "group": "bills",
+      "steps": [],
+      "benefit": "省下的钱，等于你已经不用、却还在扣费的那些订阅加起来的钱。每个人不一样，没有统一数字。监管要求商家在续费前明显提醒你。商家还要给你一个「简便的随时取消」的选项。取消不用另外花钱（中国，2021 年起施行）",
+      "calc": "subscription",
+      "chapters": [
+        5
+      ],
+      "sourceLabel": "《HowToLiveBetter》第5章 · 不要浪费钱",
+      "boundary": "以下是仓库原文，保留作者的说法、来源和备注；未逐条核验。",
+      "sourceOriginal": true,
+      "action": "关掉所有自动续费，改为到期手动续",
+      "done": true,
+      "savedAt": "2026-09-27T14:22:42.548Z",
+      "estimate": {
+        "kind": "money",
+        "value": 360,
+        "unit": "元",
+        "label": "未来 12 个月预计减少支出",
+        "formula": "30 元/月 × 12 个月",
+        "assumption": "仅计算已确认不用、可以取消且在所填月份不再扣费的月付订阅。不含已付费用退款。",
+        "values": {
+          "fee": 30,
+          "months": 12
+        }
+      }
+    },
+    {
+      "id": "source-23-14",
+      "title": "学完先合上书自己考一遍，别回头重读",
+      "question": "学完先合上书自己考一遍，别回头重读",
+      "chapterId": 23,
+      "chapterTitle": "学什么技能划算",
+      "heading": "14. 学完先合上书自己考一遍，别回头重读",
+      "url": "https://github.com/eternity4719/HowToLiveBetter/blob/main/book/23-学什么技能划算.md",
+      "tags": [
+        "learning"
+      ],
+      "group": "learning",
+      "steps": [],
+      "benefit": "222 项独立研究、48478 名学生的荟萃分析：课堂测验让学生的学业成绩提高，效应量属于中等（g = 0.499）。效果大小受几个条件影响：对照组用的是什么学法、测验形式和最终考试是否一致、材料是否匹配、有没有给纠正性反馈、测验重复了几次、在哪里什么时候测、干预持续多久、用的是什么实验设计。另一份逐一评估十种常用学习方法的综述，把「练习性测验」和「分散练习」评为最高一档（high utility），理由是它们对不同年龄、不同能力的学习者都有效，在多种考核形式和真实教育场景里都被验证过。",
+      "calc": null,
+      "chapters": [
+        23
+      ],
+      "sourceLabel": "《HowToLiveBetter》第23章 · 学什么技能划算",
+      "boundary": "以下是仓库原文，保留作者的说法、来源和备注；未逐条核验。",
+      "sourceOriginal": true,
+      "action": "学完先合上书自己考一遍，别回头重读",
+      "done": false,
+      "savedAt": "2026-09-27T14:22:42.554Z",
+      "estimate": null
+    }
+  ],
+  "archive": [],
+  "seen": [
+    "source-2-20",
+    "source-3-1",
+    "source-13-3",
+    "source-5-1",
+    "source-23-14"
+  ],
+  "batch": [
+    "source-2-20",
+    "source-3-1",
+    "source-13-3"
+  ],
+  "decisions": {
+    "source-5-1": "add",
+    "source-23-14": "add"
+  },
+  "round": 1,
+  "emptyRounds": 0,
+  "checkpoints": [],
+  "pendingQuestion": null,
+  "answers": {},
+  "visited": [],
+  "estimates": {},
+  "sessionId": "mujwrdkg-xfnb83tk"
+}
