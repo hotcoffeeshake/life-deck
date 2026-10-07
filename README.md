@@ -1,6 +1,14 @@
-# 人生之书 · 卡牌交互原型
+# 人生之书 · 卡牌小工具（life-deck）
 
-本地可运行的小红书小工具原型。用户最后明确要求先定交互、最后再定画面，故当前是中性排版，未采用写实角色图；不代表最终美术方案。
+把「人生建议」做成卡牌游戏：先选方向 → 踏上旅途 → 收集 10 张建议卡 → 出「旅途结算」，
+告诉你照着做能避开哪些坑、拿到哪些收益，并生成一张 1080×1440 的小红书战报图。
+
+- **在线玩**：https://hotcoffeeshake.github.io/life-deck/
+- **仓库**：https://github.com/hotcoffeeshake/life-deck
+- **小红书工具包（上传包）**：[Releases 下载](https://github.com/hotcoffeeshake/life-deck/releases/latest) ，
+  或仓库内 `人生之书-交互原型-小红书小工具.zip`（入口 `index.html` 在 ZIP 根目录，包内仅 `index.html` + `assets/`，无任何外链，可离线）
+
+全离线运行，数据只存在使用者这台设备。原文来自 HowToLiveBetter（Unlicense，快照 commit `8276caec`）。
 
 ## 已实现
 
@@ -41,10 +49,18 @@
 上传包：`人生之书-交互原型-小红书小工具.zip`，入口 index.html 位于 ZIP 根目录。包内仅 index.html 和 assets/。
 截图与测试海报：design/。最终包清单和 SHA256：design/打包检查.json。
 
-## 来源
+## 来源与许可
 
 HowToLiveBetter，2026-09-26 快照，commit 8276caec9508c11c5c80a65440b17895023e2fb9，仓库 Unlicense。
 原文只作为离线查阅资料；产品措辞、步骤与排序另外整理。题库和画像还需要用户试答校准，未宣称是验证过的心理或生活质量量表。
+
+上游快照见 `sources/upstream/`（已去掉其 .git，作为普通文件保留）。本仓库代码与文案采用 MIT，见 `LICENSE`；
+原文部分仍按上游 Unlicense 处理。
+
+## 上传到小红书
+
+1. 到 [Releases](https://github.com/hotcoffeeshake/life-deck/releases/latest) 下载 `人生之书-交互原型-小红书小工具.zip`；
+2. 或本地跑 `python3 scripts/package_xhs.py` 自行打包（脚本会校验：无外链、无内联事件、单 HTML 入口、体积 < 2MB）。
 
 ## 未完成的平台验收
 
