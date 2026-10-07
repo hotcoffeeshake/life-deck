@@ -8,7 +8,9 @@
 - **小红书工具包（上传包）**：[Releases 下载](https://github.com/hotcoffeeshake/life-deck/releases/latest) ，
   或仓库内 `life-deck-xhs-package.zip`（入口 `index.html` 在 ZIP 根目录，包内仅 `index.html` + `assets/`，无任何外链，可离线）
 
-全离线运行，数据只存在使用者这台设备。原文来自 HowToLiveBetter（Unlicense，快照 commit `8276caec`）。
+全离线运行，数据只存在使用者这台设备。原文来自 HowToLiveBetter（快照 commit `8276caec`，该快照许可证 Unlicense；上游仓库现已改为 CC-BY-4.0）。
+
+> 接手开发请先读 [`AGENTS.md`](./AGENTS.md)：小红书工具包的可加 / 不可加清单、源数据出处、验收命令都在里面。
 
 ## 已实现
 
@@ -51,8 +53,11 @@
 
 ## 来源与许可
 
-HowToLiveBetter，2026-09-26 快照，commit 8276caec9508c11c5c80a65440b17895023e2fb9，仓库 Unlicense。
-原文只作为离线查阅资料；产品措辞、步骤与排序另外整理。题库和画像还需要用户试答校准，未宣称是验证过的心理或生活质量量表。
+上游仓库：https://github.com/eternity4719/HowToLiveBetter
+
+- 本仓库用的快照：2026-09-26，commit `8276caec9508c11c5c80a65440b17895023e2fb9`，该 commit 的 LICENSE 为 **Unlicense**（公有领域）。
+- ⚠️ 上游仓库现已改为 **CC-BY-4.0**：若要同步上游新内容，必须保留署名（BY）并注明来源链接与 commit。
+- 原文只作为离线查阅资料；产品措辞、步骤与排序另外整理。题库和画像还需要用户试答校准，未宣称是验证过的心理或生活质量量表。
 
 上游快照见 `sources/upstream/`（已去掉其 .git，作为普通文件保留）。本仓库代码与文案采用 MIT，见 `LICENSE`；
 原文部分仍按上游 Unlicense 处理。

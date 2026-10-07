@@ -20,4 +20,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-上游客观内容来自 HowToLiveBetter（Unlicense），见 README「来源与许可」。
+上游客观内容来自 HowToLiveBetter <https://github.com/eternity4719/HowToLiveBetter>：
+本仓库收录的快照 commit 8276caec（2026-09-26）为 Unlicense；上游仓库现已改为 CC-BY-4.0，
+同步新内容需按 CC BY 4.0 署名。详见 README「来源与许可」。
