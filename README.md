@@ -6,7 +6,7 @@
 - **在线玩**：https://hotcoffeeshake.github.io/life-deck/
 - **仓库**：https://github.com/hotcoffeeshake/life-deck
 - **小红书工具包（上传包）**：[Releases 下载](https://github.com/hotcoffeeshake/life-deck/releases/latest) ，
-  或仓库内 `人生之书-交互原型-小红书小工具.zip`（入口 `index.html` 在 ZIP 根目录，包内仅 `index.html` + `assets/`，无任何外链，可离线）
+  或仓库内 `life-deck-xhs-package.zip`（入口 `index.html` 在 ZIP 根目录，包内仅 `index.html` + `assets/`，无任何外链，可离线）
 
 全离线运行，数据只存在使用者这台设备。原文来自 HowToLiveBetter（Unlicense，快照 commit `8276caec`）。
 
@@ -46,7 +46,7 @@
 
 ## 交付
 
-上传包：`人生之书-交互原型-小红书小工具.zip`，入口 index.html 位于 ZIP 根目录。包内仅 index.html 和 assets/。
+上传包：`life-deck-xhs-package.zip`（Release 附件同名），入口 index.html 位于 ZIP 根目录。包内仅 index.html 和 assets/。
 截图与测试海报：design/。最终包清单和 SHA256：design/打包检查.json。
 
 ## 来源与许可
