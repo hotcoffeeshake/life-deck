@@ -59,7 +59,7 @@ HowToLiveBetter，2026-09-26 快照，commit 8276caec9508c11c5c80a65440b17895023
 
 ## 上传到小红书
 
-1. 到 [Releases](https://github.com/hotcoffeeshake/life-deck/releases/latest) 下载 `人生之书-交互原型-小红书小工具.zip`；
+1. 到 [Releases](https://github.com/hotcoffeeshake/life-deck/releases/latest) 下载 `life-deck-xhs-package.zip`；
 2. 或本地跑 `python3 scripts/package_xhs.py` 自行打包（脚本会校验：无外链、无内联事件、单 HTML 入口、体积 < 2MB）。
 
 ## 未完成的平台验收
